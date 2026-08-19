@@ -1,6 +1,6 @@
 # Electrostatic Discharge (ESD) Control for Lab and Factory Engineers and Managers — Learner Guide
 
-**Course code:** TGS-2024051412 · **TSC:** Electrostatic Discharge Control (ELE-OPR-4002-1.1) · **Version:** v3.0 (19 August 2026)
+**Course code:** TGS-2024051412 · **TSC:** Electrostatic Discharge Control (ELE-OPR-4002-1.1) · **Version:** v3.1 (20 August 2026)
 
 > Detailed procedures appear here and in the individual activity folders. The PowerPoint remains concept-led.
 
@@ -11,7 +11,7 @@
 
 ## Source and standards note
 
-This guide preserves useful coverage and all embedded pictures from the legacy v2 deck, then deepens the content using the supplied sources. For exact acceptance limits, test methods and programme requirements, the organisation’s current controlled copies of the applicable standards, customer requirements and procedures govern.
+This guide preserves useful technical coverage from the legacy v2 deck and deepens it using the supplied and current official sources. Only relevant legacy technical figures are retained contextually; irrelevant, duplicated and administrative images are excluded. For exact acceptance limits, test methods and programme requirements, the organisation’s current controlled copies of the applicable standards, customer requirements and procedures govern.
 
 ## Module 1: Basics of ESD
 
@@ -143,6 +143,15 @@ Charge generation · discharge paths · HBM/MM/CDM · failure modes · business 
 
 *Source alignment: ESDA Fundamentals Part 1.*
 
+### Physical defect signatures
+
+- **Gate oxide rupture:** A local dielectric puncture can create leakage, a short or loss of control.
+- **Junction damage:** High current density can produce leakage, spiking or a shorted junction.
+- **Metallisation damage:** Local heating can melt, open or bridge an interconnect.
+- **Passivation and edge damage:** Surface or edge breakdown can shift parameters and weaken long-term margin.
+
+*Source alignment: ESDA Fundamentals Part 1; Toshiba ESD FAQ.*
+
 ### Latent and cumulative degradation
 
 - A degraded device may still pass initial functional test.
@@ -162,6 +171,17 @@ Charge generation · discharge paths · HBM/MM/CDM · failure modes · business 
 > **Decision takeaway:** Classification drives the right corrective action.
 
 *Source alignment: ESDA Fundamentals Part 1.*
+
+### Device-level protection techniques
+
+- **Steering diodes:** Route pin current toward supply rails.
+- **Clamp structures:** Turn on during a transient to limit internal voltage.
+- **Series impedance:** Restrict current and reduce stress entering the core.
+- **Layout discipline:** Short, low-inductance paths and adequate spacing make protection effective.
+
+> **Decision takeaway:** On-chip protection improves robustness but does not replace handling controls.
+
+*Source alignment: Toshiba ESD FAQ; Analog Devices ESD glossary.*
 
 ### Where exposure occurs
 
@@ -193,6 +213,19 @@ Charge generation · discharge paths · HBM/MM/CDM · failure modes · business 
 > **Decision takeaway:** Prevention is usually cheaper than proving the origin of an intermittent failure.
 
 *Source alignment: ESDA Fundamentals Part 1.*
+
+### The reliability escape chain
+
+- Uncontrolled electrostatic exposure
+- Physical damage or parametric shift
+- Test misses or misclassifies the defect
+- Degraded unit escapes
+- Intermittent field failure or return
+- Evidence feeds prevention and design improvement
+
+> **Decision takeaway:** Reliability depends on preventing exposure and strengthening detection, traceability and learning.
+
+*Source alignment: ESDA Fundamentals Part 1; Analog Devices.*
 
 ### Risk-based prioritisation
 
@@ -579,12 +612,20 @@ Control programme structure · measurements · compliance verification · eviden
 
 ### Standards define a control system
 
-- ANSI/ESD S20.20 and IEC 61340-5-1 structure organisational controls for protecting ESDS items.
+- ANSI/ESD S20.20-2021 and IEC 61340-5-1:2024 structure organisational controls for protecting ESDS items.
 - Use the current controlled copy, customer requirements and product sensitivity data for exact limits and methods.
 
 > **Decision takeaway:** Training slides are not a substitute for the purchased/current standard.
 
 *Source alignment: ESDA Fundamentals Part 1.*
+
+### The standards stack has distinct purposes
+
+- **Programme requirements:** ANSI/ESD S20.20-2021 or IEC 61340-5-1:2024 defines the control-programme framework.
+- **Methods and verification:** Referenced test methods and verification guidance define how control items are qualified and checked.
+- **Site and customer controls:** The approved control plan tailors product sensitivity, process risk, limits, frequency, records and response.
+
+*Source alignment: EOS/ESD Association; IEC 61340-5-1:2024.*
 
 ### Control programme architecture
 
@@ -1025,5 +1066,7 @@ Activity folder: `activities/activity-08-management-capstone-build-the-apex-esd-
 - [Toshiba ESD FAQ](https://toshiba.semicon-storage.com/ap-en/semiconductor/knowledge/faq/diode_tvs-diodes/what-is-electrostatic-discharge-esd.html)
 - [Electrostatic-sensitive device overview](https://en.wikipedia.org/wiki/Electrostatic-sensitive_device)
 - [EOS/ESD Association](https://www.esda.org/)
+- [ANSI/ESD S20.20-2021 official product page](https://www.esda.org/store/standards/product/314/ansiesd-s20-20-2021/)
+- [IEC 61340-5-1:2024 official publication page](https://webstore.iec.ch/en/publication/74748)
 - [Schneider Electric community ESD discussion](https://community.se.com/t5/Industry-Automation-and-Control/What-is-an-ESD/td-p/237728)
 - [ESD disambiguation](https://en.wikipedia.org/wiki/ESD)

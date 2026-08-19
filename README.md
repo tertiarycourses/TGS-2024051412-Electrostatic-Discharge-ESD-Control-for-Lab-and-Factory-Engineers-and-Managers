@@ -2,22 +2,23 @@
 
 ![Courseware cover](screenshot.png)
 
-WSQ courseware for **TGS-2024051412**, rebuilt as version **v3.0** on 19 August 2026.
+WSQ courseware for **TGS-2024051412**, rebuilt as version **v3.1** on 20 August 2026.
 
 - Course page: [Tertiary Courses](https://www.tertiarycourses.com.sg/wsq-electrostatic-discharge-esd-control-for-lab-and-factory-engineers-and-managers.html)
 - Duration: two training days plus a two-hour assessment
 - Assessment: one-hour Written Assessment (SAQ) and one-hour Case Study
-- Coverage: ESD fundamentals, device damage, EPA controls, verification, auditing, incident response and programme management
+- Coverage: electrostatic physics; HBM, MM and CDM; physical and latent defects; device protection; reliability; EPA prevention; standards; verification; auditing; incident response; CAPA; and programme management
 
 ## Courseware
 
-- Trainer slides: [`courseware/Electrostatic-Discharge-ESD-Control-v3.0.pptx`](courseware/Electrostatic-Discharge-ESD-Control-v3.0.pptx)
-- Trainer slides PDF: [`courseware/Electrostatic-Discharge-ESD-Control-v3.0.pdf`](courseware/Electrostatic-Discharge-ESD-Control-v3.0.pdf)
+- Trainer slides: [`courseware/Electrostatic-Discharge-ESD-Control-v3.1.pptx`](courseware/Electrostatic-Discharge-ESD-Control-v3.1.pptx)
+- Trainer slides PDF: [`courseware/Electrostatic-Discharge-ESD-Control-v3.1.pdf`](courseware/Electrostatic-Discharge-ESD-Control-v3.1.pdf)
 - Learner Guide: [`courseware/LG-Electrostatic-Discharge-ESD-Control.docx`](courseware/LG-Electrostatic-Discharge-ESD-Control.docx) and [PDF](courseware/LG-Electrostatic-Discharge-ESD-Control.pdf)
 - Learner Guide source: [`LG-Electrostatic-Discharge-ESD-Control.md`](LG-Electrostatic-Discharge-ESD-Control.md)
 - Lesson Plan: [`courseware/LP-Electrostatic-Discharge-ESD-Control.docx`](courseware/LP-Electrostatic-Discharge-ESD-Control.docx) and [PDF](courseware/LP-Electrostatic-Discharge-ESD-Control.pdf)
-- Source coverage: [`courseware/SOURCE-COVERAGE-v3.0.md`](courseware/SOURCE-COVERAGE-v3.0.md)
-- Asset register: [`courseware/ASSET-REGISTER-v3.0.md`](courseware/ASSET-REGISTER-v3.0.md)
+- Source coverage: [`courseware/SOURCE-COVERAGE-v3.1.md`](courseware/SOURCE-COVERAGE-v3.1.md)
+- Asset register: [`courseware/ASSET-REGISTER-v3.1.md`](courseware/ASSET-REGISTER-v3.1.md)
+- QA report: [`courseware/QA-REPORT-v3.1.md`](courseware/QA-REPORT-v3.1.md)
 
 ## Applied Activities
 

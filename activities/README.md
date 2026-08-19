@@ -1,6 +1,6 @@
 # Course Activities
 
-Aligned to **Electrostatic Discharge (ESD) Control for Lab and Factory Engineers and Managers** (TGS-2024051412) · v3.0.
+Aligned to **Electrostatic Discharge (ESD) Control for Lab and Factory Engineers and Managers** (TGS-2024051412) · v3.1.
 
 Each activity is self-contained. Open the numbered folder and start with `README.md`.
 

@@ -1,6 +1,8 @@
 .DS_Store
 .env
 .env.*
+.playwright-mcp/
+output/
 !.env.example
 .claude/
 assessment/
