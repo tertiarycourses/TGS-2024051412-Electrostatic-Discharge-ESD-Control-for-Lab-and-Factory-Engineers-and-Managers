@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.claude/
+assessment/
+reference/
+labs/
+courseware/archive/
+courseware/assets/
+courseware/build/
+courseware/qa/
+__pycache__/
+*.pyc
+*.key
+*credentials*
+*secret*

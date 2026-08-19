@@ -1,0 +1,6 @@
+area,item,test,method_context,result,units,first_pass,response
+EPA-1,Operator 17,Wrist strap,Daily tester,pass,,yes,Start work
+EPA-2,Operator 04,Footwear/floor,Daily tester,fail,,no,Stopped and escalated
+EPA-2,Operator 04,Footwear/floor,Retest after cleaning,pass,,no,Product review pending
+EPA-3,Worksurface,Point-to-ground,Electrode and environment recorded,8.2E7,ohm,yes,Accept per controlled limit
+EPA-4,Ioniser,Offset/balance,At work position,18,V,yes,Trend
